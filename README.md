@@ -23,4 +23,5 @@ mkdir build
 cd build
 
 cmake ..
+
 cmake -DUSE_DOUBLE=ON ..
