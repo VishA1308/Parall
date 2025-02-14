@@ -17,6 +17,8 @@ make USE_DOUBLE=0 all
 
 CMAKE:
 
+cd path/to/my_project
+
 mkdir build
 
 cd build
