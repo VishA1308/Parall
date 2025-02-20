@@ -11,7 +11,7 @@ endif()
 project("CMakeProject6")
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable(CMakeProject6 "CMakeProject8.cpp" "CMakeProject8.h")
+add_executable(CMakeProject8 "CMakeProject6.cpp" "CMakeProject8.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET CMakeProject6 PROPERTY CXX_STANDARD 20)
