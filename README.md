@@ -24,6 +24,7 @@ CMAKE:
 cmake -DUSE_DOUBLE=ON -S . -B build
    
 cd build
+
 cmake --build .
    
 
